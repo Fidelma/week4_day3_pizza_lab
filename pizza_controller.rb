@@ -29,3 +29,8 @@ post '/pizza-orders' do
   @order.save()
   erb(:create)
 end
+
+#DELETE
+post '/pizza-orders/:id/delete' do
+  
+end
